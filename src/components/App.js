@@ -23,7 +23,7 @@ class App extends Component {
     	return(
     		<div id="main">
 				{ /* Do not remove this main div!! */ }
-				<button onClick={this.showMsg}>Click Me!</button>
+				<button id="click" onClick={this.showMsg}>Click Me!</button>
 				{this.state.click}
     		</div>
     	);
